@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="tash.css">
+    <title>tash</title>
+</head>
+<body dir="rtl">
+    <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand">مدرسة الفنون الابداعية</a>
+          <a class="navbar-brand" href="#">
+            <img src="SCHOOL.png" style="object-fit: contain;" alt="Logo" width="60" height="60" class="d-inline-block align-text-top">
+           
+          </a>
+        </div>
+      </nav>
+
+    <main id="app">
+     <p>Text - النص</p>
+     <select id="select">
+        <option value="encode">تشفير النص</option>
+        <option value="decode">فك التشفير</option>
+     </select>
+
+     <textarea id="text"></textarea>
+
+     <p>Result - النتيجة</p>
+     <textarea id="result">
+
+     </textarea>
+
+    </main>
+
+    <div id="wall" class="card mb-3">
+        <img src="wll.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">حولنا</h5>
+          <p class="card-text">خير الناس انفعهم للناس.</p>
+          <p class="card-text"><small class="text-body-secondary">اتصل بنا</small></p>
+        </div>
+      
+    <script src="tash.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
